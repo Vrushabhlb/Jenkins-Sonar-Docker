@@ -1,2 +1,4 @@
 From nginx
-COPY . /usr/share/nginx/html
+WORKDIR /usr/share/nginx/html
+COPY . .
+EXPOSE 8085
