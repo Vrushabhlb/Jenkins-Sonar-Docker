@@ -1,4 +1,4 @@
-From nginx
+FROM nginx
 WORKDIR /usr/share/nginx/html
 COPY . .
 EXPOSE 8085
